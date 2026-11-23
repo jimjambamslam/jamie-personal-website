@@ -22,8 +22,8 @@ body {
   background-color: var(--charcoal);
   /* Charcoal overlay on top of the photograph */
   background-image:
-    linear-gradient(rgba(32, 33, 43, 0.86), rgba(32, 33, 43, 0.9)),
-    url("assets/background.jpg");
+    linear-gradient(rgba(32, 33, 43, 0.78), rgba(32, 33, 43, 0.86)),
+    url("assets/background-retro.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -117,7 +117,7 @@ a:focus-visible { outline: 2px solid var(--pink); outline-offset: 4px; border-ra
   .portrait { max-width: 420px; margin-inline: auto; }
   .content { max-width: none; }
   /* fixed backgrounds are janky on mobile browsers */
-  body { background-attachment: scroll; }
+  body { background-attachment: scroll; background-position: center 30%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
