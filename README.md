@@ -9,8 +9,11 @@ personal-website/
   vercel.json
   assets/
     background.jpg
+    background-retro.jpg
     portrait.png
     favicon.png
+    fonts/
+      Exo2-VariableFont_wght.woff
   README.md
 ```
 
